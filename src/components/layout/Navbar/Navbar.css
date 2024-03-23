@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav-container{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    background-color: #1b1b1b;
+    align-items: center;
+}
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+    margin-top: 0;
+    max-height: 100px;
+}
+.links{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 120px;
+}
+.links:hover{
+    color: gold;
+}
+.cart-navbar{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    padding-top: 25px;
+}
